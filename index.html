@@ -197,7 +197,7 @@
 
     <script>
       document.querySelectorAll(".choice-item").forEach(function(element) {
-        element.addEventListener("click", function() {
+        element.addEventListener("change", function() {
           if (element.querySelector("input").checked) {
             document.querySelector(".necessary-items").appendChild(element.parentElement);
           } else {
